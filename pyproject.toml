@@ -16,12 +16,16 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["hardware.protocol*"]
+include = ["protocol*"]
 namespaces = true
 
 [tool.setuptools.package-data]
-"hardware.protocol" = [
+"protocol" = [
   "README.md",
   "commands/**/*.toml",
+  "generated/**/*.py",
   "hub/**/*.proto",
 ]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

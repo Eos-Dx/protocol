@@ -1,4 +1,4 @@
-from hardware.protocol import commands_dir, hub_dir
+from protocol import commands_dir, hub_dir
 
 
 def test_bundled_assets_exist():

@@ -1,6 +1,6 @@
 # eosdx-protocol
 
-Standalone `hardware.protocol` assets extracted from `xrd-analysis`.
+Standalone `protocol` assets extracted from `xrd-analysis`.
 
 ## Layout
 
